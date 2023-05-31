@@ -1,7 +1,0 @@
-implemented two assembly files in the dead zones :
-big zone: 080485cd     small zone: 08048633
-
-*jump from the small zone to the big zone
-*the big zone check if the is "#!" as a prefix
-* if yes we have the correct code
-* else we go back to main 

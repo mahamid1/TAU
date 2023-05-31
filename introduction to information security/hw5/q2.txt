@@ -1,2 +1,0 @@
-wrote shellcode.c to done the needed then translated assembly code using gdb for the functions addresses.
-we initiate a socket in the server that connect to our c&c server, we redirect STDIN,STDOUT,STDERR to the socket and then call execv("/bin/sh",NULL), it opens at our c&c server and we gain control

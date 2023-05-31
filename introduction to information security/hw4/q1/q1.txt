@@ -1,1 +1,0 @@
-we see strcat wich is unsafe function ,the order in the stack is auth then buff so we can change auth without getting the password by adding \x01 to a password with max lenght =10 

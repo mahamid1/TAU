@@ -1,4 +1,0 @@
-*initiate a variable res=175
-*we get N value bt the message[0]
-*we loop N  times and calculate res=res XOR message[i+2]
-* check if res = message[1]

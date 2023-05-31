@@ -1,2 +1,0 @@
-text:080486CB                 jnz     short loc_80486E4
-replace jnz op with jmp op by changing the op code to 235
