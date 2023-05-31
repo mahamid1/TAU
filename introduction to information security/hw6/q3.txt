@@ -1,0 +1,1 @@
+i pushed our address into the stack and pop it to a register , then we modify it using other registers  and then return to the original return address so the program jump to main

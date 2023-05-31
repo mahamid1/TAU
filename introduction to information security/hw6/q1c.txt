@@ -1,0 +1,1 @@
+the same as q1b but instead of 4 bytes garbage we added the exit address and then after the args of system we add the arg of exit 

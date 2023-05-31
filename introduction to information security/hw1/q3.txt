@@ -1,0 +1,1 @@
+the following program takes input1 and input2 and concatenates them .

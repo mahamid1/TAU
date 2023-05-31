@@ -1,0 +1,2 @@
+.text:080486DD                 mov     eax, 1
+we change 1 to 0 so we get 0 in all cases 

@@ -1,0 +1,1 @@
+we calculate the difference between msg[1] and the result , add the result to arr[c+2], and when we checkmsg and xor the new number it`ll pass the check

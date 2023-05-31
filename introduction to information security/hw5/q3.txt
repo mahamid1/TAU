@@ -1,0 +1,12 @@
+to do BL = 1111 1111 :
+ PUSH 0X0
+ POP EBX
+ DEC EBX
+ => bin(BL) 1111 1111
+
+then went through the steps :
+1.encode: every non ASCII --> xor with 0xff
+2.decoder: xor with BL and keep track bu inc ecx
+3.get_ascii_shellcode: for getting the right address , ESP- (len(shellcode)+4)
+and dec EAX the same number of times
+4.get_payload:same as q2
