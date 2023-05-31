@@ -1,0 +1,1 @@
+in json if there is two keys with the same name we take the last key, so alice when checked for the command she will get echo cool and the same signature as wanted so we will pass through , then its valid and now bob run the first comman he find thats the echo hacked. 

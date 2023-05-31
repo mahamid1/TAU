@@ -1,0 +1,1 @@
+run.py uses the eval function , and then the eval function executes the input so it executed the print i wrote in cmd andget the desired output.

@@ -1,0 +1,1 @@
+in this question we use timing we see that each verify takes 100000 iterations,so i use fork to create 2 processes (father and a son) on one i make sure that the verify function in run.py gets "echo cool" so it gets verefied and then when its verefied i made it sleep and changed the command to "echo hacked" so now when the execute runs , it`ll do echo hacked .

@@ -1,0 +1,1 @@
+we check if an ip sent more than 15 SYN requests in 1 minute.wen can flood the victim with SYN requests from different IP aaddresses ,like DOS attack

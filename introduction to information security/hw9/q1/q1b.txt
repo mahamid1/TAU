@@ -1,0 +1,6 @@
+to block we return the sudo command .
+on_packet:
+*we keep log dict with the timestaps
+*when we get new ip we add it to log
+*if the ip has more than 15 attempts we block it
+*if the time stamp greater than the defined window we drop it.

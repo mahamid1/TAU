@@ -1,0 +1,1 @@
+compared the gateway and check if the src ip different , then compared the gateway and checked the ip, if different then its poisoned , at the end send the packet with fake gateway.

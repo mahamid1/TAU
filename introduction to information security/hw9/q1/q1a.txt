@@ -1,0 +1,11 @@
+generate:
+*build the packets with the given ip and dst and with the given port as dst ports in TCP
+we crate the packets:
+IP Level is the dst ip
+TCP level is the dst port and the flag is 'S'(the packet is syn packet)
+
+
+analyze:
+*the packets in unanswered were filtered,the rest  of the packets :
+1.the port is open ---->SYN-ACK response. the tcp flags is 18 and we add them with OPEN
+2.we add them with CLOSED

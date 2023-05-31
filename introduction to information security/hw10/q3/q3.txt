@@ -1,0 +1,1 @@
+in run.py we check if the the first 'k' chars in user == to the first 'k' chars in the data , so if we use 0 chars we get that 0=0 and gets True the same thing for the password so either way if we send ::echo hacked we will get true for the username and the password and also the first if condition and with that we will return True .

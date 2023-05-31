@@ -1,0 +1,13 @@
+winston:
+*we get the message in bytes
+*calculate number of messages to send
+*the i packet we create where the seq is index i and ack is the number of packets
+*we shift right 3 times the msg_int so we take the last 3 bits
+*send the pacakets with sr
+
+
+julia:
+*filter='lo' so we listen to local host
+*stealth is the function that checks the src port and flags
+*we get the packets count from the ack and the index from the seq field and the 3 bits
+*update the variables and stop sniffing

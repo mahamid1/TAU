@@ -1,0 +1,10 @@
+winston:
+*add padding
+*encrypts the padded data
+*sending the IV at the beginning of the msg and then the encypted data
+
+
+julia:
+*extracts the IV (the first 16 bytes)
+*use the key and IV to decrypt
+*use the last byte to remove padding
