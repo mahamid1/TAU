@@ -1,0 +1,2 @@
+we got the same strcat problem so we check passwords with different lenghts
+(used jumps of 5) then we get a password that gives us seg fault , it will overflow the buff and we can ovverride vatiables in the stack.
