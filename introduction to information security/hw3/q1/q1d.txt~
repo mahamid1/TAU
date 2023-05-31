@@ -1,0 +1,1 @@
+replace jnz op with jmp op by changing the op code to 235
